@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import theme from './theme';
+import { theme } from './theme';
 import Dashboard from './pages/Dashboard';
 import DashboardLayout from './components/DashboardLayout';
 import ContentLibrary from './pages/ContentLibrary';
@@ -83,4 +83,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App; 
+export default App;
